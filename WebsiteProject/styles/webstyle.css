@@ -1,0 +1,317 @@
+/*
+Tholang Selepe
+2027738117
+Website Project
+Assignment
+ */
+
+/*rules for entire website*/
+body{
+  font-family:Arial,Tahoma,sans-serif;
+  font-size:medium;
+  background-color:#A50000;
+  margin:auto;
+}
+
+.navdiv{
+  margin-left:100px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.navbar{
+  margin:6px;
+}
+.logo{
+  
+  position:absolute;
+  left:0;
+  top:0;
+}
+.navdiv ul a{
+  color: aliceblue;
+  font-weight: bold;
+  text-decoration: none
+}
+.navdiv ul li{
+  list-style-type: none;
+  display:inline;
+}
+li{
+  margin-bottom:12px;
+  line-height: 25px;
+}
+#current{
+  color:#d8b894;
+}
+.navdiv ul a:hover{
+  background-color:#b09a81;
+  border-radius:12px;
+  border:5px solid #b09a81;
+}
+h1{
+  text-align: center;
+  color: #d8b894;
+  margin: auto;
+  padding-top:20px
+}
+.introimg{
+  margin-left:60px;
+}
+p{
+  margin:7px;
+  padding: 10px;
+}
+main{
+  background-color:#F9E1C6;
+ margin:35px 38px 25px 32px;
+  border-radius: 10px;
+  border:7px solid #7d0606;
+}
+#imgcenter{
+  margin-left: 509px;
+  margin-top:4px;
+}
+main h2{
+  text-align: center;
+}
+a{
+	color:#7a7adf;
+}
+.intro{
+  text-align: center;
+  
+}
+.specialcolor{
+  color:#A50000;
+}
+li{
+  margin:10px;
+}
+section{
+  margin-left: 15px;
+}
+#slogan{
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  padding:20px;
+}
+#footimages{
+  display:flex;
+  align-items:center;
+  justify-content: space-around;
+  padding-left: 40px;
+  place-items: inherit;
+  
+}
+a{
+  text-decoration: none;
+  color:blue;
+}
+a:hover{
+  color:burlywood;
+}
+
+.gen{
+  border:3px solid #A50000;
+  margin-right: 1025px;
+}
+.all{
+  border:3px solid #A50000;
+  border-radius: 10px;
+  margin-left:30px;
+  width:80%;
+}
+.inline{
+  float: left;
+  margin:10px;
+}
+fieldset{
+  margin-right: 20px;
+}
+#signin{
+  margin:0 auto;
+  font-size: 25px;
+  font-weight: bold;
+  color:#A50000;
+}
+input[type="text"],input[type="email"],input[type="password"]
+{
+  background-color:floralwhite;
+  border:2px solid #A50000;
+  border-radius: 10px;
+  padding-left: 8px;
+}
+input[required]{
+  border-color:red;
+}
+input[type="submit"],input[type="reset"]{
+  background-color:#d6e6eb;
+  font-weight: bold;
+  margin:10px;
+  margin-left: 4px;
+  border-radius: 7px;
+}
+#search{
+  position: absolute;
+  right:45px;
+  border-radius: 30px;
+}
+label{
+  color:#A50000;
+  font-weight:bold;
+}
+.gen label{
+  font-style: italic;
+  font-weight:normal;
+  color:black;
+}
+.cntform{
+  display:flex;
+  align-items:center;
+  justify-content: space-around;
+  place-items: inherit;
+  margin-bottom: 15px;
+  width:80%;
+}
+section.genre{
+  margin: 0 auto;
+}
+legend{
+  color:#A50000;
+  font-weight: bold;
+}
+input[type="submit"]:hover,input[type="reset"]:hover{
+  background-color: burlywood;
+  cursor: pointer;
+}
+table{
+  border-collapse: collapse;
+  border-spacing: 10px 5px;
+  margin:10px;
+}
+caption{
+  font-weight:bold;
+  margin:15px;
+  color:#A50000;
+  font-size: 22px
+}
+td img{
+  border-radius: 95px
+}
+.overview{
+  width:50%;
+}
+#green{
+  color:green;
+  font-weight: bold;
+  font-size: 25px;
+  width:8%;
+}
+#orange{
+  color:orange;
+  font-weight: bold;
+  font-size: 25px;
+}
+#lightgreen{
+  color:#5fc35f;
+  font-weight: bold;
+  font-size: 25px;
+}
+#search{
+  margin: 0 auto;
+}
+th{
+  border:2px solid black;
+}
+td{
+  border:2px solid black;
+  text-align: center;
+}
+tr:hover{
+  background-color:#efd7bb;
+}
+footer{
+  color:white;
+  background-color: #030303;
+}
+.accounts{
+  display:flex;
+  justify-content: center;
+}
+.footerbot{
+  text-align:center;
+}
+.developer{
+  font-weight:bold;
+  opacity:0.7;
+  letter-spacing:2px;
+}
+.footernav ul{
+  display:flex;
+  justify-content: center;
+}
+.footernav ul li{
+  margin:25px;
+  list-style-type:none;
+}
+section.chapters{
+  border:1.5px solid #A50000;
+  margin:2px;
+}
+section h3{
+  text-align: center;
+  color: #A50000;
+}
+.chapterlines{
+  font-size:20px;
+  margin:20px 20px 10px 20px;
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  white-space: 25px;
+  padding: 30px;
+}
+
+.wallpaper-card {
+  margin:30px;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  width: 300px;
+  padding-bottom: 15px;
+  box-shadow: 0 5px 10px rgba(255, 0, 0, 0.3);
+}
+
+.wallpaper-card:hover {
+  background-color:#A50000;
+}
+
+.wallpaper-card img {
+  width: 100%;
+  height: 180px;
+  border-radius: 12px 12px 0 0;
+}
+
+.wallpaper-card h3 {
+  margin: 10px 0;
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.buttons input[type="button"]{
+  font-weight:bold;
+  background-color:#d8b894;
+  border-radius:10px;
+}
+.buttons input[type="button"]:hover{
+  background-color:aliceblue;
+}
+
